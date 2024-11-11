@@ -1,0 +1,21 @@
+D:\Cosas de Clases\trabajo\Proyecto Estructura de datos\bin\Debug\Proyecto Estructura de datos.exe.config
+D:\Cosas de Clases\trabajo\Proyecto Estructura de datos\bin\Debug\Proyecto Estructura de datos.exe
+D:\Cosas de Clases\trabajo\Proyecto Estructura de datos\bin\Debug\Proyecto Estructura de datos.pdb
+D:\Cosas de Clases\trabajo\Proyecto Estructura de datos\obj\Debug\Proyecto Estructura de datos.csproj.AssemblyReference.cache
+D:\Cosas de Clases\trabajo\Proyecto Estructura de datos\obj\Debug\Proyecto_Estructura_de_datos.MenuPrincipal.resources
+D:\Cosas de Clases\trabajo\Proyecto Estructura de datos\obj\Debug\Proyecto_Estructura_de_datos.Properties.Resources.resources
+D:\Cosas de Clases\trabajo\Proyecto Estructura de datos\obj\Debug\Proyecto Estructura de datos.csproj.GenerateResource.cache
+D:\Cosas de Clases\trabajo\Proyecto Estructura de datos\obj\Debug\Proyecto Estructura de datos.csproj.CoreCompileInputs.cache
+D:\Cosas de Clases\trabajo\Proyecto Estructura de datos\obj\Debug\Proyecto Estructura de datos.exe
+D:\Cosas de Clases\trabajo\Proyecto Estructura de datos\obj\Debug\Proyecto Estructura de datos.pdb
+D:\Cosas de Clases\trabajo\Proyecto Estructura de datos\obj\Debug\Proyecto_Estructura_de_datos.UserControls.ArbolesAVLControl.resources
+D:\Cosas de Clases\trabajo\Proyecto Estructura de datos\obj\Debug\Proyecto_Estructura_de_datos.UserControls.ArbolesBinariosControl.resources
+D:\Cosas de Clases\trabajo\Proyecto Estructura de datos\obj\Debug\Proyecto_Estructura_de_datos.UserControls.ColasCircularesControl.resources
+D:\Cosas de Clases\trabajo\Proyecto Estructura de datos\obj\Debug\Proyecto_Estructura_de_datos.UserControls.ColasSimplesControl.resources
+D:\Cosas de Clases\trabajo\Proyecto Estructura de datos\obj\Debug\Proyecto_Estructura_de_datos.UserControls.DijkstraControl.resources
+D:\Cosas de Clases\trabajo\Proyecto Estructura de datos\obj\Debug\Proyecto_Estructura_de_datos.UserControls.ListasDoblesControl.resources
+D:\Cosas de Clases\trabajo\Proyecto Estructura de datos\obj\Debug\Proyecto_Estructura_de_datos.UserControls.ListasSimplesControl.resources
+D:\Cosas de Clases\trabajo\Proyecto Estructura de datos\obj\Debug\Proyecto_Estructura_de_datos.UserControls.PilasControl.resources
+D:\Cosas de Clases\trabajo\Proyecto Estructura de datos\obj\Debug\Proyecto_Estructura_de_datos.UserControls.OrdenamientosControl.resources
+D:\Cosas de Clases\trabajo\Proyecto Estructura de datos\obj\Debug\Proyecto_Estructura_de_datos.UserControls.FloydControl.resources
+D:\Cosas de Clases\trabajo\Proyecto Estructura de datos\obj\Debug\Proyecto_Estructura_de_datos.UserControls.MarshallControl.resources
