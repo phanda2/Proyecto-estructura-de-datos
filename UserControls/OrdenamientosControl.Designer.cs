@@ -37,8 +37,8 @@
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.rbtnShellSort = new System.Windows.Forms.RadioButton();
+            this.rbtnShakerSort = new System.Windows.Forms.RadioButton();
             this.rbtnSelectionSort = new System.Windows.Forms.RadioButton();
             this.rbtnHeapSort = new System.Windows.Forms.RadioButton();
             this.rbtnQuickSort = new System.Windows.Forms.RadioButton();
@@ -164,8 +164,8 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.panel3.Controls.Add(this.radioButton3);
-            this.panel3.Controls.Add(this.radioButton2);
+            this.panel3.Controls.Add(this.rbtnShellSort);
+            this.panel3.Controls.Add(this.rbtnShakerSort);
             this.panel3.Controls.Add(this.rbtnSelectionSort);
             this.panel3.Controls.Add(this.rbtnHeapSort);
             this.panel3.Controls.Add(this.rbtnQuickSort);
@@ -180,31 +180,31 @@
             this.panel3.Size = new System.Drawing.Size(884, 142);
             this.panel3.TabIndex = 66;
             // 
-            // radioButton3
+            // rbtnShellSort
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Font = new System.Drawing.Font("Poppins Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
-            this.radioButton3.Location = new System.Drawing.Point(766, 39);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(108, 32);
-            this.radioButton3.TabIndex = 80;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Shell Sort";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.rbtnShellSort.AutoSize = true;
+            this.rbtnShellSort.Font = new System.Drawing.Font("Poppins Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbtnShellSort.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.rbtnShellSort.Location = new System.Drawing.Point(766, 39);
+            this.rbtnShellSort.Name = "rbtnShellSort";
+            this.rbtnShellSort.Size = new System.Drawing.Size(108, 32);
+            this.rbtnShellSort.TabIndex = 80;
+            this.rbtnShellSort.TabStop = true;
+            this.rbtnShellSort.Text = "Shell Sort";
+            this.rbtnShellSort.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // rbtnShakerSort
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Poppins Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
-            this.radioButton2.Location = new System.Drawing.Point(615, 39);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(127, 32);
-            this.radioButton2.TabIndex = 79;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Shaker Sort";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rbtnShakerSort.AutoSize = true;
+            this.rbtnShakerSort.Font = new System.Drawing.Font("Poppins Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbtnShakerSort.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
+            this.rbtnShakerSort.Location = new System.Drawing.Point(615, 39);
+            this.rbtnShakerSort.Name = "rbtnShakerSort";
+            this.rbtnShakerSort.Size = new System.Drawing.Size(127, 32);
+            this.rbtnShakerSort.TabIndex = 79;
+            this.rbtnShakerSort.TabStop = true;
+            this.rbtnShakerSort.Text = "Shaker Sort";
+            this.rbtnShakerSort.UseVisualStyleBackColor = true;
             // 
             // rbtnSelectionSort
             // 
@@ -218,7 +218,6 @@
             this.rbtnSelectionSort.TabStop = true;
             this.rbtnSelectionSort.Text = "Selection Sort";
             this.rbtnSelectionSort.UseVisualStyleBackColor = true;
-            this.rbtnSelectionSort.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // rbtnHeapSort
             // 
@@ -613,8 +612,8 @@
         private System.Windows.Forms.DateTimePicker dtpFechaVencimiento;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton rbtnShellSort;
+        private System.Windows.Forms.RadioButton rbtnShakerSort;
         private System.Windows.Forms.RadioButton rbtnSelectionSort;
     }
 }

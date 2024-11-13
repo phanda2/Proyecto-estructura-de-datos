@@ -1,18 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Cosas de Clases\\trabajo\\Proyecto Estructura de datos\\",
+  "WorkspaceRootPath": "D:\\Backup\\Escritorio\\git\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|d:\\cosas de clases\\trabajo\\proyecto estructura de datos\\usercontrols\\ordenamientoscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|d:\\backup\\escritorio\\git\\usercontrols\\ordenamientoscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|solutionrelative:usercontrols\\ordenamientoscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|D:\\Backup\\Escritorio\\git\\usercontrols\\ordenamientoscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|solutionrelative:usercontrols\\ordenamientoscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|D:\\Cosas de Clases\\trabajo\\Proyecto Estructura de datos\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|D:\\Backup\\Escritorio\\git\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|solutionrelative:menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|D:\\Backup\\Escritorio\\git\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|solutionrelative:menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|D:\\Cosas de Clases\\trabajo\\Proyecto Estructura de datos\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|solutionrelative:menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|D:\\Backup\\Escritorio\\git\\usercontrols\\ordenamientoscontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|solutionrelative:usercontrols\\ordenamientoscontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,11 +42,37 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrdenamientosControl.Designer.cs",
+              "DocumentMoniker": "D:\\Backup\\Escritorio\\git\\UserControls\\OrdenamientosControl.Designer.cs",
+              "RelativeDocumentMoniker": "UserControls\\OrdenamientosControl.Designer.cs",
+              "ToolTip": "D:\\Backup\\Escritorio\\git\\UserControls\\OrdenamientosControl.Designer.cs",
+              "RelativeToolTip": "UserControls\\OrdenamientosControl.Designer.cs",
+              "ViewState": "AgIAAMgAAAAAAAAAAAAswNwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T14:08:23.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OrdenamientosControl.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\Cosas de Clases\\trabajo\\Proyecto Estructura de datos\\UserControls\\OrdenamientosControl.cs",
+              "Title": "OrdenamientosControl.cs",
+              "DocumentMoniker": "D:\\Backup\\Escritorio\\git\\UserControls\\OrdenamientosControl.cs",
               "RelativeDocumentMoniker": "UserControls\\OrdenamientosControl.cs",
-              "ToolTip": "D:\\Cosas de Clases\\trabajo\\Proyecto Estructura de datos\\UserControls\\OrdenamientosControl.cs [Dise\u00F1o]",
+              "ToolTip": "D:\\Backup\\Escritorio\\git\\UserControls\\OrdenamientosControl.cs",
+              "RelativeToolTip": "UserControls\\OrdenamientosControl.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAewIYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T14:06:14.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrdenamientosControl.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Backup\\Escritorio\\git\\UserControls\\OrdenamientosControl.cs",
+              "RelativeDocumentMoniker": "UserControls\\OrdenamientosControl.cs",
+              "ToolTip": "D:\\Backup\\Escritorio\\git\\UserControls\\OrdenamientosControl.cs [Dise\u00F1o]",
               "RelativeToolTip": "UserControls\\OrdenamientosControl.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T20:45:03.351Z",
@@ -46,28 +80,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MenuPrincipal.cs",
-              "DocumentMoniker": "D:\\Cosas de Clases\\trabajo\\Proyecto Estructura de datos\\MenuPrincipal.cs",
+              "DocumentMoniker": "D:\\Backup\\Escritorio\\git\\MenuPrincipal.cs",
               "RelativeDocumentMoniker": "MenuPrincipal.cs",
-              "ToolTip": "D:\\Cosas de Clases\\trabajo\\Proyecto Estructura de datos\\MenuPrincipal.cs",
+              "ToolTip": "D:\\Backup\\Escritorio\\git\\MenuPrincipal.cs",
               "RelativeToolTip": "MenuPrincipal.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAAAwBUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T20:44:57.485Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T20:44:57.485Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MenuPrincipal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\Cosas de Clases\\trabajo\\Proyecto Estructura de datos\\MenuPrincipal.cs",
+              "DocumentMoniker": "D:\\Backup\\Escritorio\\git\\MenuPrincipal.cs",
               "RelativeDocumentMoniker": "MenuPrincipal.cs",
-              "ToolTip": "D:\\Cosas de Clases\\trabajo\\Proyecto Estructura de datos\\MenuPrincipal.cs [Dise\u00F1o]",
+              "ToolTip": "D:\\Backup\\Escritorio\\git\\MenuPrincipal.cs [Dise\u00F1o]",
               "RelativeToolTip": "MenuPrincipal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T20:44:55.157Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-11-05T20:44:55.157Z"
             }
           ]
         }

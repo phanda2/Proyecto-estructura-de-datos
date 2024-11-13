@@ -28,7 +28,7 @@ namespace Proyecto_Estructura_de_datos.UserControls
             comboBoxCriterios.Items.Add("Precio (Menor a Mayor)");
             comboBoxCriterios.Items.Add("Stock (Mayor a Menor)");
             comboBoxCriterios.Items.Add("Stock (Menor a Mayor)");
-            comboBoxCriterios.SelectedIndex = 0; 
+            comboBoxCriterios.SelectedIndex = 0;
         }
 
         private void ActualizarTabla()
@@ -42,8 +42,8 @@ namespace Proyecto_Estructura_de_datos.UserControls
                     producto.Categoria,
                     producto.Stock,
                     producto.PrecioVenta,
-                    producto.FechaProduccion.ToShortDateString(), 
-                    producto.FechaVencimiento.ToShortDateString()  
+                    producto.FechaProduccion.ToShortDateString(),
+                    producto.FechaVencimiento.ToShortDateString()
                 );
             }
         }
@@ -101,7 +101,6 @@ namespace Proyecto_Estructura_de_datos.UserControls
             }
         }
 
-
         private void btnOrdenar_Click(object sender, EventArgs e)
         {
             string criterio = comboBoxCriterios.SelectedItem?.ToString();
@@ -123,6 +122,18 @@ namespace Proyecto_Estructura_de_datos.UserControls
             {
                 HeapSort(criterio);
             }
+            else if (rbtnSelectionSort.Checked)
+            {
+                SelectionSort(criterio);
+            }
+            else if (rbtnShakerSort.Checked)
+            {
+                ShakerSort(criterio);
+            }
+            else if (rbtnShellSort.Checked)
+            {
+                ShellSort(criterio);
+            }
             else
             {
                 MessageBox.Show("Seleccione un algoritmo de ordenación.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -131,6 +142,122 @@ namespace Proyecto_Estructura_de_datos.UserControls
 
             ActualizarTabla();
         }
+
+        private void SelectionSort(string criterio)
+        {
+            for (int i = 0; i < productos.Count - 1; i++)
+            {
+                int minIndex = i;
+                for (int j = i + 1; j < productos.Count; j++)
+                {
+                    if (!Comparar(productos[minIndex], productos[j], criterio))
+                    {
+                        minIndex = j;
+                    }
+                }
+                if (minIndex != i)
+                {
+                    var temp = productos[minIndex];
+                    productos[minIndex] = productos[i];
+                    productos[i] = temp;
+                }
+            }
+        }
+
+        private void ShakerSort(string criterio)
+        {
+            bool swapped = true;
+            int start = 0;
+            int end = productos.Count - 1;
+
+            while (swapped)
+            {
+                swapped = false;
+
+                for (int i = start; i < end; i++)
+                {
+                    if (!Comparar(productos[i], productos[i + 1], criterio))
+                    {
+                        var temp = productos[i];
+                        productos[i] = productos[i + 1];
+                        productos[i + 1] = temp;
+                        swapped = true;
+                    }
+                }
+
+                if (!swapped)
+                    break;
+
+                swapped = false;
+                end--;
+
+                for (int i = end - 1; i >= start; i--)
+                {
+                    if (!Comparar(productos[i], productos[i + 1], criterio))
+                    {
+                        var temp = productos[i];
+                        productos[i] = productos[i + 1];
+                        productos[i + 1] = temp;
+                        swapped = true;
+                    }
+                }
+                start++;
+            }
+        }
+
+        private void ShellSort(string criterio)
+        {
+            int n = productos.Count;
+            for (int gap = n / 2; gap > 0; gap /= 2)
+            {
+                for (int i = gap; i < n; i++)
+                {
+                    var temp = productos[i];
+                    int j;
+                    for (j = i; j >= gap && !Comparar(productos[j - gap], temp, criterio); j -= gap)
+                    {
+                        productos[j] = productos[j - gap];
+                    }
+                    productos[j] = temp;
+                }
+            }
+        }
+        private void HeapSort(string criterio)
+        {
+            int n = productos.Count;
+            for (int i = n / 2 - 1; i >= 0; i--)
+                Heapify(criterio, n, i);
+
+            for (int i = n - 1; i > 0; i--)
+            {
+                var temp = productos[0];
+                productos[0] = productos[i];
+                productos[i] = temp;
+                Heapify(criterio, i, 0);
+            }
+        }
+
+        private void Heapify(string criterio, int n, int i)
+        {
+            int largest = i;
+            int left = 2 * i + 1;
+            int right = 2 * i + 2;
+
+            if (left < n && !Comparar(productos[left], productos[largest], criterio))
+                largest = left;
+
+            if (right < n && !Comparar(productos[right], productos[largest], criterio))
+                largest = right;
+
+            if (largest != i)
+            {
+                var swap = productos[i];
+                productos[i] = productos[largest];
+                productos[largest] = swap;
+                Heapify(criterio, n, largest);
+            }
+        }
+
 
         private void BubbleSort(string criterio)
         {
@@ -176,6 +303,19 @@ namespace Proyecto_Estructura_de_datos.UserControls
             }
         }
 
+        private bool Comparar(ProductoOrdenamientos a, ProductoOrdenamientos b, string criterio)
+        {
+            if (criterio == "Precio (Mayor a Menor)")
+                return a.PrecioVenta > b.PrecioVenta;
+            else if (criterio == "Precio (Menor a Mayor)")
+                return a.PrecioVenta < b.PrecioVenta;
+            else if (criterio == "Stock (Mayor a Menor)")
+                return a.Stock > b.Stock;
+            else if (criterio == "Stock (Menor a Mayor)")
+                return a.Stock < b.Stock;
+            return false;
+        }
+
         private int Partition(string criterio, int low, int high)
         {
             var pivot = productos[high];
@@ -214,69 +354,15 @@ namespace Proyecto_Estructura_de_datos.UserControls
             return i + 1;
         }
 
-        private void HeapSort(string criterio)
-        {
-            int n = productos.Count;
-            for (int i = n / 2 - 1; i >= 0; i--)
-                Heapify(criterio, n, i);
-
-            for (int i = n - 1; i > 0; i--)
-            {
-                var temp = productos[0];
-                productos[0] = productos[i];
-                productos[i] = temp;
-                Heapify(criterio, i, 0);
-            }
-        }
-
-        private void Heapify(string criterio, int n, int i)
-        {
-            int largest = i;
-            int left = 2 * i + 1;
-            int right = 2 * i + 2;
-
-            if (left < n && Comparar(productos[left], productos[largest], criterio))
-                largest = left;
-
-            if (right < n && Comparar(productos[right], productos[largest], criterio))
-                largest = right;
-
-            if (largest != i)
-            {
-                var swap = productos[i];
-                productos[i] = productos[largest];
-                productos[largest] = swap;
-                Heapify(criterio, n, largest);
-            }
-        }
-
-        private bool Comparar(ProductoOrdenamientos a, ProductoOrdenamientos b, string criterio)
-        {
-            if (criterio == "Precio (Mayor a Menor)")
-                return a.PrecioVenta < b.PrecioVenta;
-            else if (criterio == "Precio (Menor a Mayor)")
-                return a.PrecioVenta > b.PrecioVenta;
-            else if (criterio == "Stock (Mayor a Menor)")
-                return a.Stock < b.Stock;
-            else if (criterio == "Stock (Menor a Mayor)")
-                return a.Stock > b.Stock;
-            return false;
-        }
-
         private void btnReiniciarOrden_Click(object sender, EventArgs e)
         {
-            productos.Sort((x, y) => x.ID.CompareTo(y.ID)); 
+            productos.Sort((x, y) => x.ID.CompareTo(y.ID));
             ActualizarTabla();
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             LimpiarCampos();
-        }
-
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-
         }
     }
 
