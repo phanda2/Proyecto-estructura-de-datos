@@ -19,3 +19,24 @@ D:\Cosas de Clases\trabajo\Proyecto Estructura de datos\obj\Debug\Proyecto_Estru
 D:\Cosas de Clases\trabajo\Proyecto Estructura de datos\obj\Debug\Proyecto_Estructura_de_datos.UserControls.OrdenamientosControl.resources
 D:\Cosas de Clases\trabajo\Proyecto Estructura de datos\obj\Debug\Proyecto_Estructura_de_datos.UserControls.FloydControl.resources
 D:\Cosas de Clases\trabajo\Proyecto Estructura de datos\obj\Debug\Proyecto_Estructura_de_datos.UserControls.MarshallControl.resources
+D:\Backup\Escritorio\git\bin\Debug\Proyecto Estructura de datos.exe.config
+D:\Backup\Escritorio\git\bin\Debug\Proyecto Estructura de datos.exe
+D:\Backup\Escritorio\git\bin\Debug\Proyecto Estructura de datos.pdb
+D:\Backup\Escritorio\git\obj\Debug\Proyecto Estructura de datos.csproj.AssemblyReference.cache
+D:\Backup\Escritorio\git\obj\Debug\Proyecto_Estructura_de_datos.MenuPrincipal.resources
+D:\Backup\Escritorio\git\obj\Debug\Proyecto_Estructura_de_datos.Properties.Resources.resources
+D:\Backup\Escritorio\git\obj\Debug\Proyecto_Estructura_de_datos.UserControls.ArbolesAVLControl.resources
+D:\Backup\Escritorio\git\obj\Debug\Proyecto_Estructura_de_datos.UserControls.ArbolesBinariosControl.resources
+D:\Backup\Escritorio\git\obj\Debug\Proyecto_Estructura_de_datos.UserControls.ColasCircularesControl.resources
+D:\Backup\Escritorio\git\obj\Debug\Proyecto_Estructura_de_datos.UserControls.ColasSimplesControl.resources
+D:\Backup\Escritorio\git\obj\Debug\Proyecto_Estructura_de_datos.UserControls.DijkstraControl.resources
+D:\Backup\Escritorio\git\obj\Debug\Proyecto_Estructura_de_datos.UserControls.FloydControl.resources
+D:\Backup\Escritorio\git\obj\Debug\Proyecto_Estructura_de_datos.UserControls.ListasDoblesControl.resources
+D:\Backup\Escritorio\git\obj\Debug\Proyecto_Estructura_de_datos.UserControls.ListasSimplesControl.resources
+D:\Backup\Escritorio\git\obj\Debug\Proyecto_Estructura_de_datos.UserControls.MarshallControl.resources
+D:\Backup\Escritorio\git\obj\Debug\Proyecto_Estructura_de_datos.UserControls.OrdenamientosControl.resources
+D:\Backup\Escritorio\git\obj\Debug\Proyecto_Estructura_de_datos.UserControls.PilasControl.resources
+D:\Backup\Escritorio\git\obj\Debug\Proyecto Estructura de datos.csproj.GenerateResource.cache
+D:\Backup\Escritorio\git\obj\Debug\Proyecto Estructura de datos.csproj.CoreCompileInputs.cache
+D:\Backup\Escritorio\git\obj\Debug\Proyecto Estructura de datos.exe
+D:\Backup\Escritorio\git\obj\Debug\Proyecto Estructura de datos.pdb
