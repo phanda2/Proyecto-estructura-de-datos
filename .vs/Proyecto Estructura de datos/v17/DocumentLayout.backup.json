@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "D:\\Backup\\Escritorio\\git\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|d:\\backup\\escritorio\\git\\usercontrols\\arbolesbinarioscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|solutionrelative:usercontrols\\arbolesbinarioscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|d:\\backup\\escritorio\\git\\usercontrols\\dijkstracontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|solutionrelative:usercontrols\\dijkstracontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|d:\\backup\\escritorio\\git\\usercontrols\\arbolesbinarioscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|solutionrelative:usercontrols\\arbolesbinarioscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|d:\\backup\\escritorio\\git\\usercontrols\\dijkstracontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|solutionrelative:usercontrols\\dijkstracontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|d:\\backup\\escritorio\\git\\usercontrols\\arbolesavlcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|solutionrelative:usercontrols\\arbolesavlcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|d:\\backup\\escritorio\\git\\usercontrols\\arbolesavlcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|solutionrelative:usercontrols\\arbolesavlcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|d:\\backup\\escritorio\\git\\usercontrols\\dijkstracontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|solutionrelative:usercontrols\\dijkstracontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,52 +38,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ArbolesBinariosControl.cs",
-              "DocumentMoniker": "D:\\Backup\\Escritorio\\git\\UserControls\\ArbolesBinariosControl.cs",
-              "RelativeDocumentMoniker": "UserControls\\ArbolesBinariosControl.cs",
-              "ToolTip": "D:\\Backup\\Escritorio\\git\\UserControls\\ArbolesBinariosControl.cs",
-              "RelativeToolTip": "UserControls\\ArbolesBinariosControl.cs",
-              "ViewState": "AgIAAKQAAAAAAAAAAAAqwLMAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "DijkstraControl.Designer.cs",
+              "DocumentMoniker": "D:\\Backup\\Escritorio\\git\\UserControls\\DijkstraControl.Designer.cs",
+              "RelativeDocumentMoniker": "UserControls\\DijkstraControl.Designer.cs",
+              "ToolTip": "D:\\Backup\\Escritorio\\git\\UserControls\\DijkstraControl.Designer.cs",
+              "RelativeToolTip": "UserControls\\DijkstraControl.Designer.cs",
+              "ViewState": "AgIAALgAAAAAAAAAAAAmwNwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T08:02:05.933Z",
+              "WhenOpened": "2024-11-18T03:21:53.984Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ArbolesBinariosControl.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\Backup\\Escritorio\\git\\UserControls\\ArbolesBinariosControl.cs",
-              "RelativeDocumentMoniker": "UserControls\\ArbolesBinariosControl.cs",
-              "ToolTip": "D:\\Backup\\Escritorio\\git\\UserControls\\ArbolesBinariosControl.cs [Dise\u00F1o]",
-              "RelativeToolTip": "UserControls\\ArbolesBinariosControl.cs [Dise\u00F1o]",
+              "Title": "DijkstraControl.cs",
+              "DocumentMoniker": "D:\\Backup\\Escritorio\\git\\UserControls\\DijkstraControl.cs",
+              "RelativeDocumentMoniker": "UserControls\\DijkstraControl.cs",
+              "ToolTip": "D:\\Backup\\Escritorio\\git\\UserControls\\DijkstraControl.cs",
+              "RelativeToolTip": "UserControls\\DijkstraControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T08:01:25.935Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ArbolesAVLControl.cs",
-              "DocumentMoniker": "D:\\Backup\\Escritorio\\git\\UserControls\\ArbolesAVLControl.cs",
-              "RelativeDocumentMoniker": "UserControls\\ArbolesAVLControl.cs",
-              "ToolTip": "D:\\Backup\\Escritorio\\git\\UserControls\\ArbolesAVLControl.cs",
-              "RelativeToolTip": "UserControls\\ArbolesAVLControl.cs",
-              "ViewState": "AgIAAMIAAAAAAAAAAAAuwOcAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T07:46:58.809Z",
+              "WhenOpened": "2024-11-18T03:17:25.98Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ArbolesAVLControl.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\Backup\\Escritorio\\git\\UserControls\\ArbolesAVLControl.cs",
-              "RelativeDocumentMoniker": "UserControls\\ArbolesAVLControl.cs",
-              "ToolTip": "D:\\Backup\\Escritorio\\git\\UserControls\\ArbolesAVLControl.cs [Dise\u00F1o]",
-              "RelativeToolTip": "UserControls\\ArbolesAVLControl.cs [Dise\u00F1o]",
+              "DocumentIndex": 1,
+              "Title": "DijkstraControl.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Backup\\Escritorio\\git\\UserControls\\DijkstraControl.cs",
+              "RelativeDocumentMoniker": "UserControls\\DijkstraControl.cs",
+              "ToolTip": "D:\\Backup\\Escritorio\\git\\UserControls\\DijkstraControl.cs [Dise\u00F1o]",
+              "RelativeToolTip": "UserControls\\DijkstraControl.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T07:46:56.583Z",
+              "WhenOpened": "2024-11-18T03:12:07.096Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]
