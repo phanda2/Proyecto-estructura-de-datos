@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Backup\\Escritorio\\git\\",
+  "WorkspaceRootPath": "D:\\Backup\\Escritorio\\Estructura de datos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|d:\\backup\\escritorio\\git\\usercontrols\\listasdoblescontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|d:\\backup\\escritorio\\estructura de datos\\usercontrols\\listasdoblescontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|solutionrelative:usercontrols\\listasdoblescontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|D:\\Backup\\Escritorio\\git\\usercontrols\\listasdoblescontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|D:\\Backup\\Escritorio\\Estructura de datos\\usercontrols\\listasdoblescontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|solutionrelative:usercontrols\\listasdoblescontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|D:\\Backup\\Escritorio\\git\\usercontrols\\listassimplescontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|D:\\Backup\\Escritorio\\Estructura de datos\\usercontrols\\listassimplescontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|solutionrelative:usercontrols\\listassimplescontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|D:\\Backup\\Escritorio\\git\\usercontrols\\listassimplescontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|D:\\Backup\\Escritorio\\Estructura de datos\\usercontrols\\listassimplescontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|solutionrelative:usercontrols\\listassimplescontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,24 +42,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ListasSimplesControl.cs",
-              "DocumentMoniker": "D:\\Backup\\Escritorio\\git\\UserControls\\ListasSimplesControl.cs",
-              "RelativeDocumentMoniker": "UserControls\\ListasSimplesControl.cs",
-              "ToolTip": "D:\\Backup\\Escritorio\\git\\UserControls\\ListasSimplesControl.cs",
-              "RelativeToolTip": "UserControls\\ListasSimplesControl.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAwwJcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T03:12:32.896Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ListasSimplesControl.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\Backup\\Escritorio\\git\\UserControls\\ListasSimplesControl.cs",
+              "DocumentMoniker": "D:\\Backup\\Escritorio\\Estructura de datos\\UserControls\\ListasSimplesControl.cs",
               "RelativeDocumentMoniker": "UserControls\\ListasSimplesControl.cs",
               "ToolTip": "D:\\Backup\\Escritorio\\git\\UserControls\\ListasSimplesControl.cs [Dise\u00F1o]",
-              "RelativeToolTip": "UserControls\\ListasSimplesControl.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\git\\UserControls\\ListasSimplesControl.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T03:12:30.919Z"
             },
@@ -67,23 +55,35 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ListasDoblesControl.cs",
-              "DocumentMoniker": "D:\\Backup\\Escritorio\\git\\UserControls\\ListasDoblesControl.cs",
+              "DocumentMoniker": "D:\\Backup\\Escritorio\\Estructura de datos\\UserControls\\ListasDoblesControl.cs",
               "RelativeDocumentMoniker": "UserControls\\ListasDoblesControl.cs",
-              "ToolTip": "D:\\Backup\\Escritorio\\git\\UserControls\\ListasDoblesControl.cs",
+              "ToolTip": "D:\\Backup\\Escritorio\\Estructura de datos\\UserControls\\ListasDoblesControl.cs",
               "RelativeToolTip": "UserControls\\ListasDoblesControl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T03:12:22.975Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ListasSimplesControl.cs",
+              "DocumentMoniker": "D:\\Backup\\Escritorio\\Estructura de datos\\UserControls\\ListasSimplesControl.cs",
+              "RelativeDocumentMoniker": "UserControls\\ListasSimplesControl.cs",
+              "ToolTip": "D:\\Backup\\Escritorio\\Estructura de datos\\UserControls\\ListasSimplesControl.cs",
+              "RelativeToolTip": "UserControls\\ListasSimplesControl.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAwwJcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T03:12:32.896Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ListasDoblesControl.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\Backup\\Escritorio\\git\\UserControls\\ListasDoblesControl.cs",
+              "DocumentMoniker": "D:\\Backup\\Escritorio\\Estructura de datos\\UserControls\\ListasDoblesControl.cs",
               "RelativeDocumentMoniker": "UserControls\\ListasDoblesControl.cs",
               "ToolTip": "D:\\Backup\\Escritorio\\git\\UserControls\\ListasDoblesControl.cs [Dise\u00F1o]",
-              "RelativeToolTip": "UserControls\\ListasDoblesControl.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\git\\UserControls\\ListasDoblesControl.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T03:12:20.332Z"
             }
