@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\Backup\\Escritorio\\git\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|d:\\backup\\escritorio\\git\\usercontrols\\dijkstracontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|solutionrelative:usercontrols\\dijkstracontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|d:\\backup\\escritorio\\git\\usercontrols\\listasdoblescontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|solutionrelative:usercontrols\\listasdoblescontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|d:\\backup\\escritorio\\git\\usercontrols\\dijkstracontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|solutionrelative:usercontrols\\dijkstracontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|D:\\Backup\\Escritorio\\git\\usercontrols\\listasdoblescontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|solutionrelative:usercontrols\\listasdoblescontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|d:\\backup\\escritorio\\git\\usercontrols\\dijkstracontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|solutionrelative:usercontrols\\dijkstracontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|D:\\Backup\\Escritorio\\git\\usercontrols\\listassimplescontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|solutionrelative:usercontrols\\listassimplescontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|D:\\Backup\\Escritorio\\git\\usercontrols\\listassimplescontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE692DF2-BA77-4EC4-BB47-207533581802}|Proyecto Estructura de datos.csproj|solutionrelative:usercontrols\\listassimplescontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,41 +42,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DijkstraControl.Designer.cs",
-              "DocumentMoniker": "D:\\Backup\\Escritorio\\git\\UserControls\\DijkstraControl.Designer.cs",
-              "RelativeDocumentMoniker": "UserControls\\DijkstraControl.Designer.cs",
-              "ToolTip": "D:\\Backup\\Escritorio\\git\\UserControls\\DijkstraControl.Designer.cs",
-              "RelativeToolTip": "UserControls\\DijkstraControl.Designer.cs",
-              "ViewState": "AgIAALgAAAAAAAAAAAAmwNwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ListasSimplesControl.cs",
+              "DocumentMoniker": "D:\\Backup\\Escritorio\\git\\UserControls\\ListasSimplesControl.cs",
+              "RelativeDocumentMoniker": "UserControls\\ListasSimplesControl.cs",
+              "ToolTip": "D:\\Backup\\Escritorio\\git\\UserControls\\ListasSimplesControl.cs",
+              "RelativeToolTip": "UserControls\\ListasSimplesControl.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAwwJcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T03:21:53.984Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T03:12:32.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ListasSimplesControl.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Backup\\Escritorio\\git\\UserControls\\ListasSimplesControl.cs",
+              "RelativeDocumentMoniker": "UserControls\\ListasSimplesControl.cs",
+              "ToolTip": "D:\\Backup\\Escritorio\\git\\UserControls\\ListasSimplesControl.cs [Dise\u00F1o]",
+              "RelativeToolTip": "UserControls\\ListasSimplesControl.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T03:12:30.919Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DijkstraControl.cs",
-              "DocumentMoniker": "D:\\Backup\\Escritorio\\git\\UserControls\\DijkstraControl.cs",
-              "RelativeDocumentMoniker": "UserControls\\DijkstraControl.cs",
-              "ToolTip": "D:\\Backup\\Escritorio\\git\\UserControls\\DijkstraControl.cs",
-              "RelativeToolTip": "UserControls\\DijkstraControl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
+              "Title": "ListasDoblesControl.cs",
+              "DocumentMoniker": "D:\\Backup\\Escritorio\\git\\UserControls\\ListasDoblesControl.cs",
+              "RelativeDocumentMoniker": "UserControls\\ListasDoblesControl.cs",
+              "ToolTip": "D:\\Backup\\Escritorio\\git\\UserControls\\ListasDoblesControl.cs",
+              "RelativeToolTip": "UserControls\\ListasDoblesControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T03:17:25.98Z",
+              "WhenOpened": "2024-11-19T03:12:22.975Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DijkstraControl.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\Backup\\Escritorio\\git\\UserControls\\DijkstraControl.cs",
-              "RelativeDocumentMoniker": "UserControls\\DijkstraControl.cs",
-              "ToolTip": "D:\\Backup\\Escritorio\\git\\UserControls\\DijkstraControl.cs [Dise\u00F1o]",
-              "RelativeToolTip": "UserControls\\DijkstraControl.cs [Dise\u00F1o]",
+              "Title": "ListasDoblesControl.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Backup\\Escritorio\\git\\UserControls\\ListasDoblesControl.cs",
+              "RelativeDocumentMoniker": "UserControls\\ListasDoblesControl.cs",
+              "ToolTip": "D:\\Backup\\Escritorio\\git\\UserControls\\ListasDoblesControl.cs [Dise\u00F1o]",
+              "RelativeToolTip": "UserControls\\ListasDoblesControl.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T03:12:07.096Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-11-19T03:12:20.332Z"
             }
           ]
         }
