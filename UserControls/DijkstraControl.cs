@@ -130,16 +130,18 @@ namespace Proyecto_Estructura_de_datos.UserControls
         private void MostrarStocksOrdenados(Dictionary<string, int> distancias, string origen, int stockOrigen)
         {
             lstResultados.Items.Clear();
-            lstResultados.Items.Add("Productos ordenados por stock (igual o mayor al seleccionado):");
+            lstResultados.Items.Add("Productos ordenados por proximidad en stock:");
 
             var productosOrdenados = distancias
-                .Where(d => d.Key != origen && ObtenerStockProducto(d.Key) >= stockOrigen)
+                .Where(d => d.Key != origen) // Excluir el producto de origen
                 .Select(d => new
                 {
                     Producto = d.Key,
-                    Stock = ObtenerStockProducto(d.Key)
+                    Stock = ObtenerStockProducto(d.Key),
+                    Distancia = Math.Abs(stockOrigen - ObtenerStockProducto(d.Key)) // Calcular la diferencia en stock
                 })
-                .OrderBy(p => p.Stock)
+                .OrderBy(p => p.Distancia) // Ordenar por la proximidad al stock del producto seleccionado
+                .ThenBy(p => p.Stock) // En caso de empate, ordenar por stock
                 .ToList();
 
             foreach (var item in productosOrdenados)
@@ -147,6 +149,7 @@ namespace Proyecto_Estructura_de_datos.UserControls
                 lstResultados.Items.Add($"Producto {item.Producto}: Stock {item.Stock}");
             }
         }
+
 
         private int ObtenerStockProducto(string descripcion)
         {

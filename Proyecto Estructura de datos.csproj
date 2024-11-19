@@ -84,11 +84,11 @@
     <Compile Include="UserControls\DijkstraControl.Designer.cs">
       <DependentUpon>DijkstraControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\FloydControl.cs">
+    <Compile Include="UserControls\FloydWarshallControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControls\FloydControl.Designer.cs">
-      <DependentUpon>FloydControl.cs</DependentUpon>
+    <Compile Include="UserControls\FloydWarshallControl.Designer.cs">
+      <DependentUpon>FloydWarshallControl.cs</DependentUpon>
     </Compile>
     <Compile Include="UserControls\ListasDoblesControl.cs">
       <SubType>UserControl</SubType>
@@ -101,12 +101,6 @@
     </Compile>
     <Compile Include="UserControls\ListasSimplesControl.Designer.cs">
       <DependentUpon>ListasSimplesControl.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControls\MarshallControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControls\MarshallControl.Designer.cs">
-      <DependentUpon>MarshallControl.cs</DependentUpon>
     </Compile>
     <Compile Include="UserControls\OrdenamientosControl.cs">
       <SubType>UserControl</SubType>
@@ -148,17 +142,14 @@
     <EmbeddedResource Include="UserControls\DijkstraControl.resx">
       <DependentUpon>DijkstraControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserControls\FloydControl.resx">
-      <DependentUpon>FloydControl.cs</DependentUpon>
+    <EmbeddedResource Include="UserControls\FloydWarshallControl.resx">
+      <DependentUpon>FloydWarshallControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\ListasDoblesControl.resx">
       <DependentUpon>ListasDoblesControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\ListasSimplesControl.resx">
       <DependentUpon>ListasSimplesControl.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControls\MarshallControl.resx">
-      <DependentUpon>MarshallControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\OrdenamientosControl.resx">
       <DependentUpon>OrdenamientosControl.cs</DependentUpon>

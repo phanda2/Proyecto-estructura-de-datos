@@ -89,14 +89,12 @@ namespace Proyecto_Estructura_de_datos
 
         private void algoritmoDeFLOYDToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FloydControl FloydControl = new FloydControl();
-            LoadUserControl(FloydControl);
+            FloydWarshallControl FloydWarshallControl = new FloydWarshallControl();
+            LoadUserControl(FloydWarshallControl);
         }
 
         private void algoritmoDeMARSHALLToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MarshallControl MarshallControl = new MarshallControl();
-            LoadUserControl(MarshallControl);
         }
     }
 }

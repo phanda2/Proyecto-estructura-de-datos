@@ -30,13 +30,12 @@ D:\Backup\Escritorio\git\obj\Debug\Proyecto_Estructura_de_datos.UserControls.Arb
 D:\Backup\Escritorio\git\obj\Debug\Proyecto_Estructura_de_datos.UserControls.ColasCircularesControl.resources
 D:\Backup\Escritorio\git\obj\Debug\Proyecto_Estructura_de_datos.UserControls.ColasSimplesControl.resources
 D:\Backup\Escritorio\git\obj\Debug\Proyecto_Estructura_de_datos.UserControls.DijkstraControl.resources
-D:\Backup\Escritorio\git\obj\Debug\Proyecto_Estructura_de_datos.UserControls.FloydControl.resources
 D:\Backup\Escritorio\git\obj\Debug\Proyecto_Estructura_de_datos.UserControls.ListasDoblesControl.resources
 D:\Backup\Escritorio\git\obj\Debug\Proyecto_Estructura_de_datos.UserControls.ListasSimplesControl.resources
-D:\Backup\Escritorio\git\obj\Debug\Proyecto_Estructura_de_datos.UserControls.MarshallControl.resources
 D:\Backup\Escritorio\git\obj\Debug\Proyecto_Estructura_de_datos.UserControls.OrdenamientosControl.resources
 D:\Backup\Escritorio\git\obj\Debug\Proyecto_Estructura_de_datos.UserControls.PilasControl.resources
 D:\Backup\Escritorio\git\obj\Debug\Proyecto Estructura de datos.csproj.GenerateResource.cache
 D:\Backup\Escritorio\git\obj\Debug\Proyecto Estructura de datos.csproj.CoreCompileInputs.cache
 D:\Backup\Escritorio\git\obj\Debug\Proyecto Estructura de datos.exe
 D:\Backup\Escritorio\git\obj\Debug\Proyecto Estructura de datos.pdb
+D:\Backup\Escritorio\git\obj\Debug\Proyecto_Estructura_de_datos.UserControls.FloydWarshallControl.resources

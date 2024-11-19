@@ -43,7 +43,6 @@
             this.grafosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.algoritmoDeDijkstraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.algoritmoDeFLOYDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.algoritmoDeMARSHALLToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.panelPrincipal = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
@@ -181,8 +180,7 @@
             // 
             this.grafosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.algoritmoDeDijkstraToolStripMenuItem,
-            this.algoritmoDeFLOYDToolStripMenuItem,
-            this.algoritmoDeMARSHALLToolStripMenuItem});
+            this.algoritmoDeFLOYDToolStripMenuItem});
             this.grafosToolStripMenuItem.Font = new System.Drawing.Font("Poppins Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grafosToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
             this.grafosToolStripMenuItem.Name = "grafosToolStripMenuItem";
@@ -193,7 +191,7 @@
             // 
             this.algoritmoDeDijkstraToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
             this.algoritmoDeDijkstraToolStripMenuItem.Name = "algoritmoDeDijkstraToolStripMenuItem";
-            this.algoritmoDeDijkstraToolStripMenuItem.Size = new System.Drawing.Size(283, 32);
+            this.algoritmoDeDijkstraToolStripMenuItem.Size = new System.Drawing.Size(327, 32);
             this.algoritmoDeDijkstraToolStripMenuItem.Text = "Algoritmo de Dijkstra";
             this.algoritmoDeDijkstraToolStripMenuItem.Click += new System.EventHandler(this.dijkstraToolStripMenuItem_Click);
             // 
@@ -201,17 +199,9 @@
             // 
             this.algoritmoDeFLOYDToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
             this.algoritmoDeFLOYDToolStripMenuItem.Name = "algoritmoDeFLOYDToolStripMenuItem";
-            this.algoritmoDeFLOYDToolStripMenuItem.Size = new System.Drawing.Size(283, 32);
-            this.algoritmoDeFLOYDToolStripMenuItem.Text = "Algoritmo de FLOYD";
+            this.algoritmoDeFLOYDToolStripMenuItem.Size = new System.Drawing.Size(327, 32);
+            this.algoritmoDeFLOYDToolStripMenuItem.Text = "Algoritmo de Floyd-Warshall";
             this.algoritmoDeFLOYDToolStripMenuItem.Click += new System.EventHandler(this.algoritmoDeFLOYDToolStripMenuItem_Click);
-            // 
-            // algoritmoDeMARSHALLToolStripMenuItem
-            // 
-            this.algoritmoDeMARSHALLToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
-            this.algoritmoDeMARSHALLToolStripMenuItem.Name = "algoritmoDeMARSHALLToolStripMenuItem";
-            this.algoritmoDeMARSHALLToolStripMenuItem.Size = new System.Drawing.Size(283, 32);
-            this.algoritmoDeMARSHALLToolStripMenuItem.Text = "Algoritmo de MARSHALL";
-            this.algoritmoDeMARSHALLToolStripMenuItem.Click += new System.EventHandler(this.algoritmoDeMARSHALLToolStripMenuItem_Click);
             // 
             // label1
             // 
@@ -338,7 +328,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ToolStripMenuItem algoritmoDeFLOYDToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem algoritmoDeMARSHALLToolStripMenuItem;
     }
 }
 

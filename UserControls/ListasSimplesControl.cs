@@ -40,8 +40,25 @@ namespace Proyecto_Estructura_de_datos.UserControls
             }
         }
 
+        private bool ValidarCampos()
+        {
+            if (string.IsNullOrWhiteSpace(txtDescripcion.Text) ||
+                string.IsNullOrWhiteSpace(txtCategoria.Text) ||
+                string.IsNullOrWhiteSpace(txtStockInicial.Text) ||
+                string.IsNullOrWhiteSpace(txtPrecioVenta.Text) ||
+                !int.TryParse(txtStockInicial.Text, out int stock) || stock <= 0 ||
+                !decimal.TryParse(txtPrecioVenta.Text, out decimal precio) || precio <= 0)
+            {
+                MessageBox.Show("Por favor, complete todos los campos correctamente y asegúrese de que los valores numéricos sean mayores a 0.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+            return true;
+        }
+
         private void btnInsertarInicio_Click(object sender, EventArgs e)
         {
+            if (!ValidarCampos()) return;
+
             NodoProducto nuevoNodo = new NodoProducto
             {
                 ID = nextID++,
@@ -61,6 +78,8 @@ namespace Proyecto_Estructura_de_datos.UserControls
 
         private void btnInsertarFinal_Click(object sender, EventArgs e)
         {
+            if (!ValidarCampos()) return;
+
             NodoProducto nuevoNodo = new NodoProducto
             {
                 ID = nextID++,
@@ -92,6 +111,8 @@ namespace Proyecto_Estructura_de_datos.UserControls
 
         private void btnInsertarporReferencia_Click(object sender, EventArgs e)
         {
+            if (!ValidarCampos()) return;
+
             int referenciaID;
             if (!int.TryParse(txtReferencia.Text, out referenciaID))
             {
@@ -128,6 +149,7 @@ namespace Proyecto_Estructura_de_datos.UserControls
             LimpiarCampos();
             txtReferencia.Clear();
         }
+
 
         private void btnEliminarInicio_Click(object sender, EventArgs e)
         {
