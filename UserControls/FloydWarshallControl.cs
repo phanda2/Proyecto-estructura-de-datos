@@ -12,8 +12,8 @@ namespace Proyecto_Estructura_de_datos.UserControls
 {
     public partial class FloydWarshallControl : UserControl
     {
-        private int[,] precios; 
-        private List<string> productos; 
+        private int[,] precios;
+        private List<string> productos;
 
         public FloydWarshallControl()
         {
@@ -57,18 +57,17 @@ namespace Proyecto_Estructura_de_datos.UserControls
                 {
                     if (i == j)
                     {
-                        precios[i, j] = 0; // Distancia a sí mismo es 0
+                        precios[i, j] = 0; 
                     }
                     else
                     {
                         int precio1 = ObtenerPrecioProducto(productos[i]);
                         int precio2 = ObtenerPrecioProducto(productos[j]);
-                        precios[i, j] = Math.Abs(precio1 - precio2); // Diferencia de precios
+                        precios[i, j] = Math.Abs(precio1 - precio2); 
                     }
                 }
             }
 
-            // Ejecuta Floyd-Warshall
             for (int k = 0; k < n; k++)
             {
                 for (int i = 0; i < n; i++)
@@ -137,15 +136,14 @@ namespace Proyecto_Estructura_de_datos.UserControls
 
             string origen = cmbProductoOrigen.SelectedItem.ToString();
             int indiceOrigen = productos.IndexOf(origen);
-            int precioOrigen = ObtenerPrecioProducto(origen);
 
             lstResultados.Items.Clear();
             lstResultados.Items.Add("Productos ordenados por proximidad de precio:");
 
             var productosOrdenados = productos
-                .Select((p, i) => new { Producto = p, Precio = ObtenerPrecioProducto(p), Distancia = Math.Abs(precioOrigen - ObtenerPrecioProducto(p)) })
-                .Where(p => p.Producto != origen) // Excluir el producto seleccionado
-                .OrderBy(p => p.Distancia) // Ordenar por la distancia al precio del producto seleccionado
+                .Select((p, i) => new { Producto = p, Precio = ObtenerPrecioProducto(p), Distancia = precios[indiceOrigen, i] })
+                .Where(p => p.Producto != origen) 
+                .OrderBy(p => p.Distancia) 
                 .ToList();
 
             foreach (var item in productosOrdenados)
@@ -153,6 +151,5 @@ namespace Proyecto_Estructura_de_datos.UserControls
                 lstResultados.Items.Add($"Producto {item.Producto}: Precio {item.Precio}");
             }
         }
-
     }
 }
